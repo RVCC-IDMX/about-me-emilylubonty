@@ -1,0 +1,31 @@
+body {
+    font-family: Special Elite;
+    background-color: #C1CCBC;
+    color: #557A45;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Cutive Mono";
+    font-size:40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color:#8F633E;
+    border: 3px dotted #C7C789;
+    text-align: center;
+    background-color: #003D2B;
+    padding: 20px;
+
+}
+
+#hero img {
+    width: 275px
+}
+
+#bio {
+    text-align: center;
+}
