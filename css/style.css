@@ -30,15 +30,30 @@ header {
 
 }
 
+
+/*Hero Section*/
+
 #hero img {
     width: 275px
 }
+
+/* Bio Section*/
 
 #bio {
     text-align: center;
     font-size: large;
 }
 
+/* Hobbies */
+#hobbies h2 {
+
+    background-color: #003D2B;
+    margin: 1px;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    color:#A9BDA0;
+}
 #hobbies {
     border: 0 solid #003D2B;
     border-width: 5px;
@@ -52,4 +67,33 @@ li {
     font-size: larger;
     padding: 10px;
     list-style-type: square;
+}
+
+/*Photo Gallery*/
+#gallery h2 {
+
+    font-stretch: semi-expanded;
+    padding: 20px;
+    margin: 1px;
+    background-color: #003d2b;
+    color:#A9BDA0;
+    font-size: 50px;
+    
+}
+#gallery {
+    text-indent: 20px;
+    color: darkslategray;
+    font-size: large;
+    font-style: normal;
+    text-align: center;
+    border: 0 solid #003D2B;
+    border-width: 5px;
+    background-color: #A9BDA0;
+    font-weight: bold;
+
+}
+
+#gallery figure {
+    text-align: center;
+
 }
