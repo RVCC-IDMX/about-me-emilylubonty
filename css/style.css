@@ -5,8 +5,16 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:"Cutive Mono";
-    font-size:40pt;
+    font-family:"Cutive Mono"
+}
+
+h1{
+    font-size: 45pt;
+}
+h2 {
+    font-size: 30pt;
+    font-weight: bolder;
+    font-stretch: semi-expanded;
 }
 
 header {
@@ -28,4 +36,20 @@ header {
 
 #bio {
     text-align: center;
+    font-size: large;
+}
+
+#hobbies {
+    border: 0 solid #003D2B;
+    border-width: 5px;
+    text-indent: 20px;
+    color: darkslategray;
+    background-color:#A9BDA0;
+}
+
+li {
+    margin: 5px;
+    font-size: larger;
+    padding: 10px;
+    list-style-type: square;
 }
