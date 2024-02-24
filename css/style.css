@@ -97,3 +97,38 @@ li {
     text-align: center;
 
 }
+
+/* Literature */
+
+#lit h2 {
+    line-height: 40px;
+    text-align: center;
+    border: 5px solid #003D2B;
+    padding: 10px;
+    background-color: #567C57;
+    color:#A9BDA0;
+}
+#lit {
+    text-align: center;
+    font-size: large;
+    line-height: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-blend-mode: color-burn;
+    background-color: #A9BDA0;
+    
+    
+}
+
+#lit div {
+    border: 1px solid #003D2B;
+    border-radius: 50px;
+    border-width: 5px;
+    
+    outline: 5px dotted #003d2b;
+    
+    padding: 20px;
+    max-width: 40rem;
+    margin: 0 auto;
+
+}
+
