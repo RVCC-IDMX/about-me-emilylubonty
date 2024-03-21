@@ -93,8 +93,7 @@ li {
 #gallery {
     
     color: darkslategray;
-    border: 0 solid #003D2B;
-    border-width: 5px;
+    border: 5px solid #003D2B;
     background-color: #A9BDA0;
     font-weight: bold;
     text-align: center;
@@ -105,20 +104,38 @@ li {
 figure figcaption {
     display: flex;
     font-size: large;
-    
     align-content: center;
     justify-content: center;
     
     
 }
-
-
-
  #gallery img {
     max-width: 60%;
     max-height: 50%;
     
-   
+}
+
+#video h2 {
+
+    border: 5px solid #003D2B;
+    padding: 10px;
+    line-height: 40px;
+    background-color: #567C57;
+    color:#A9BDA0;
+}
+#video {
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+#video iframe {
+
+    border: 3px solid #003D2B;
+
 }
 
 
@@ -147,9 +164,7 @@ figure figcaption {
     border: 1px solid #003D2B;
     border-radius: 50px;
     border-width: 5px;
-    
     outline: 5px dotted #003d2b;
-    
     padding: 20px;
     margin: 0 auto;
 
@@ -157,20 +172,22 @@ figure figcaption {
 
 /* tablet size */
 
-@media screen and (mid-width: 60em) {
+@media only screen and (max-width: 1000px) {
     figure {
         display: grid; 
         grid-template-columns: 2fr 1fr;
     }
-    
-    figcaption {
-        display: flex; 
+
+    #gallery {
+
+        display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
-        margin-left: 1rem;
-        
+        flex-direction: column;
+        contain: content;
     }
+    
+    
 
     #lit div {
 
@@ -181,18 +198,19 @@ figure figcaption {
 
 /* large screen size */
 
-@media screen and (min-width: 100em) {
-
-#gallery {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    
-}
+@media only screen and (max-width: 2000px)  {
 
 hr {
     display: none;
+}
+
+#gallery figure {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #gallery h2 {
