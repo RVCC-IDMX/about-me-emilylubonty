@@ -115,6 +115,8 @@ figure figcaption {
     
 }
 
+/* Video */
+
 #video h2 {
 
     border: 5px solid #003D2B;
@@ -169,6 +171,13 @@ figure figcaption {
     margin: 0 auto;
 
 }
+/* Contact Form */ 
+
+#formElements {
+    display: grid;
+}
+
+
 
 /* tablet size */
 
