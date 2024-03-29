@@ -173,10 +173,64 @@ figure figcaption {
 }
 /* Contact Form */ 
 
-#formElements {
-    display: grid;
+
+#contact h2 {
+    display: inline-block;
+    font-weight: bolder;
+    padding: 5px;
+    background-color: beige;
+    border: 5px solid beige;
+    border-radius: 200px;
+    text-align: center;
 }
 
+#formElements {
+    display: grid;
+    row-gap: 12px;
+    font-weight: 900;
+    text-align: left;
+    font-family: Cutive mono;
+    contain: content;
+}
+
+legend {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+fieldset {
+    background-color: #A9BDA0;
+    padding: 10px;
+    border: 2px solid #003D2B;
+
+}
+
+#contact li {
+    list-style: none;
+}
+
+textarea {
+    resize: both;
+    overflow: scroll;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+button {
+    padding: 10px;
+    font-size: large;
+    font-weight: 700px;
+    background-color: whitesmoke;
+    border: 2px solid #003D2B
+}
+
+input {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
 
 
 /* tablet size */
@@ -196,12 +250,27 @@ figure figcaption {
         contain: content;
     }
     
-    
 
     #lit div {
 
         max-width: 100%;
         columns: 40rem;
+    }
+
+    #contact {
+
+        display: grid;
+        justify-content: center;
+        contain: content;
+       
+    }
+
+
+    fieldset {
+
+        max-width: 100%;
+        columns: 40rem;
+        justify-content: center;
     }
 }
 
