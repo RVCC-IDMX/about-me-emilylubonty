@@ -20,7 +20,15 @@ The hero of the About Me project focuses on the author's main biographical infor
 The photo gallery section demonstrates how flexbox is used to style elements effectively on a webpage. By using flexbox and media states, the photos adjust to different screen sizes so they will fit and display properly. Flexbox also allows photos and figcaptions to be formatted for the appropriate displays, such as phones versus desktop screens. 
 
 **Video**
+
 The video section includes a video using the iframe attribute. This allows an external video (such as a YouTube video) to be linked within the webpage. The user does not have to leave the website in order to view the video nor switch screens or tabs. A figcaption is included to provide a legend or information on what the video entails. 
 
+**Article** 
+
+This section includes user-written content including (but not limited to) blogs, forum posts, or articles from magazines or publications. 
+
+**Contact Form**
+
+The contact form allows users to fill out a form regarding contact information. By using Netlify's contact form, data submitted by the user is sent to Netlify's servers allowing it to be saved and viewed by the web host. The contact form demonstrates different kinds of features commonly seen while filling out applications, such as drop down menus, radio buttons, and a scroll-bar for the message box. 
 
 
