@@ -33,7 +33,7 @@ The contact form allows users to fill out a form regarding contact information. 
 
 ## Color Scheme
 
-#C1CCBC
+![#C1CCBC]
 
 #8F633E
 
