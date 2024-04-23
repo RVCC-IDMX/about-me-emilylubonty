@@ -9,4 +9,6 @@ The AboutMe project's purpose is to allow users to develop their own portfolio s
 
 **NavBar**
 
-The NavBar
+The navigation bar at the top demonstrates how attributed links can lead the user to the desired locations throughout the website. By linking a reference point within the code, a hyperlink can be created making it easier for the user to navigate the website. For example, clicking on the "Bio" option will lead to the biography section of the website. This section makes it easier for users to find what they are looking for rather than endlessly searching through the website. 
+
+
