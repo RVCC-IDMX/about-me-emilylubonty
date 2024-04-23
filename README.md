@@ -13,7 +13,14 @@ The navigation bar at the top demonstrates how attributed links can lead the use
 
 **Hero**
 
-The hero of the About Me project focuses on the author's main biographical information. This section includes the name, location, and profile image. It is followed by the bio section which includes more personal details such as background information.
+The hero of the About Me project focuses on the author's main biographical information. This section includes the name, location, and profile image. It is followed by the bio section which includes more personal details such as background information. In this section an image was included and linked to CSS to demonstrate how an image can be altered or styled differently. 
+
+**Photo Gallery**
+
+The photo gallery section demonstrates how flexbox is used to style elements effectively on a webpage. By using flexbox and media states, the photos adjust to different screen sizes so they will fit and display properly. Flexbox also allows photos and figcaptions to be formatted for the appropriate displays, such as phones versus desktop screens. 
+
+**Video**
+The video section includes a video using the iframe attribute. This allows an external video (such as a YouTube video) to be linked within the webpage. The user does not have to leave the website in order to view the video nor switch screens or tabs. A figcaption is included to provide a legend or information on what the video entails. 
 
 
 
