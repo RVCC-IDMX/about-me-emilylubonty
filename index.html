@@ -4,27 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poiret+One&display=swap" rel="stylesheet">
    
     <link href="css/style.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
 
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     
-</body>
-
 <!-- the body element contains all content shown to a visitor-->
 
 <header>
     <!-- the header shows logo and page title-->
     <nav class="navbar">
         <div class="logo">
-            <img src="img/logo-96X96.svg" alt="Blue origami logo">
-            <h1>Web Dev I</h1>
+            <img src="img/monogram-logo.svg" alt="Monogram logo with the initals 'E' and 'L'">
+            <h1>Web Development I</h1>
         </div>
         <div class="navbar-links">
             <ul>
@@ -42,22 +57,26 @@
 
 <section id="hero">
     <!--hero section: shows profile image, name, and location -->
-    <img src="img/avataaars.png" alt="Avatar picture of me">
-
-    <div>
+    <img src="img/selfie.jpg" alt="Avatar picture of me">
+    
         <p>Emily Lubonty</p>
         <p>Milford, NJ</p>
-    </div>
     <!--close hero section -->
 </section>
 
 <section id="bio">
     <!-- bio section: personal information -->
 
-    <h2> Biography: </h2>
+    <h2> Biography </h2>
     <div>
-        <p> I want to be...</p>
-        <p>A successful computer programmer </p>
+        <p>Hi!</p>
+        <p>My name is Emily and I am a current student at Raritan Valley Community College working towards an Associates degree for Computer Programming.
+        I am in the process of learning web development along with Java. I graduated with Summa Cum Laude honors from Southern New Hampshire University after obtaining my B.A in English Language and Literature.
+        My passion for learning programming stems from the desire to constantly learn. Although programming languages are not verbally spoken, they have similar qualities to our “real world” communicative language (such as English, for example).
+        I admire the challenges programming provides, which is why I want to explore the field further.
+        Outside of the classroom setting I love to adventure to new places and travel, I believe that exploring allows for perspectives and experiences to grow and bloom.
+        I also love to read novels in my spare time, one of my recent favorites is The Secret History by Donna Tartt. 
+        I fully support the ideology that reading helps create new ideas and insights, even if there is not one specific meaning attached to the work itself.</p>
     </div>
 
 </section>
@@ -65,23 +84,22 @@
 <section id="hobbies">
 
     <h2>Hobbies</h2>
-
     <ul>
-        <li>Crochet</li>
+        <li>Crochet(One day I will compelete a project without starting another, one day...)</li>
         <li>Kayaking</li>
         <li>Gardening</li>
-        <li>Trying new recipes</li>
-        <li>Thrifting</li>
+        <li>Trying new recipes (I love most types of cuisines, recently I’ve been into Korean, Indian, and Japanese food!)</li>
+        <li>Thrifting (Never know what you might find along with the memories you will bring home!)</li>
     </ul>
 
 </section>
 
+<div class="galleryheader">
+<h2>Photo Gallery</h2>
+</div>
+
 <section id="gallery">
-
-    <h2> Photo Gallery </h2>
     
-    <hr>
-
     
     <figure>
         <img src="img/kayak-open-water-640w.jpg" alt="Orange kayak on open body of water">
@@ -123,6 +141,7 @@
             Begin by dropping a pin on the location/address for the map. After the coordinates have popped up on the bottom middle of the screen, there should be a share icon with three dots.
             Clicking on this icon will bring up the option of embedding a map, providing the code needed to add the map to the website.</p>
 
+            <div class="example">
             <p>
                  <p>&lt;iframe src=https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d16341.022820574413!2d37.86372201531319!3d-46.89128897222346!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1714152969751!5m2!1sen!2sus</p>
                  <p>width="600"</p>
@@ -133,6 +152,7 @@
                  <p>referrerpolicy="no-referrer-when-downgrade"></p>
                  &gt;/iframe>
             </p>
+            </div>
 
             <p>The map should look something like this:</p>
 
@@ -260,5 +280,7 @@
     ©2024 - Emily Lubonty
 
 </footer>
+</body>
+
 
 </html>
