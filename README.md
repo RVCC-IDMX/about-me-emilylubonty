@@ -32,17 +32,19 @@ This section includes user-written content including (but not limited to) blogs,
 The contact form allows users to fill out a form regarding contact information. By using Netlify's contact form, data submitted by the user is sent to Netlify's servers allowing it to be saved and viewed by the web host. The contact form demonstrates different kinds of features commonly seen while filling out applications, such as drop down menus, radio buttons, and a scroll-bar for the message box. 
 
 ## Color Scheme
-![Screenshot of Adobe color scheme for this project](img/adobecolor-my-color-theme.jpeg)
+![Screenshot of Adobe color scheme for this project](img/AdobeColor-aboutme.jpeg)
 
-`#C1CCBC`
+`#A3C4AB`
 
-`#8F633E`
+`#CDDFF8`
 
-`#C7C789`
+`#494829`
 
-`#557A45`
+`#F6F7FA`
 
-`#003D2B`
+`#DBC1B0`
+
+`#005A00`
 
 ## Citations
 
