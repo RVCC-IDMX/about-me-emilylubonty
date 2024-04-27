@@ -114,9 +114,79 @@
     <h2>Embedded static Google map using iFrame</h2>
 
     <div>
+        
+           <p>Adding a location pinpoint to a website is an excellent way to let clients and people know where businesses and services are located.
+            By embedding Google Maps into the code using iFrame tags, websites can be upgraded by going from simple addresses to precise mapped out locations.
+            Using Google Maps can make the task of searching for specific locations easier by providing directions on the same webpage, allowing the user to stay on the website rather than switching to another app or website. 
+            To begin creating an embedded Google Map, start by pinpointing the location or address needed for the website. 
+            Embedding a Google Map might seem complicated at first, but Google makes the process easier by providing the location’s code to embed within the map. 
+            Begin by dropping a pin on the location/address for the map. After the coordinates have popped up on the bottom middle of the screen, there should be a share icon with three dots.
+            Clicking on this icon will bring up the option of embedding a map, providing the code needed to add the map to the website.</p>
 
-       
+            <p>
+                 <p>&lt;iframe src=https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d16341.022820574413!2d37.86372201531319!3d-46.89128897222346!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1714152969751!5m2!1sen!2sus</p>
+                 <p>width="600"</p>
+                 <p>height="450"</p>
+                 <p>style="border:0;"</p>
+                 <p>allowfullscreen=""</p>
+                 <p>loading="lazy"</p> 
+                 <p>referrerpolicy="no-referrer-when-downgrade"></p>
+                 &gt;/iframe>
+            </p>
 
+            <p>The map should look something like this:</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d16341.022820574413!2d37.86372201531319!3d-46.89128897222346!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1714152969751!5m2!1sen!2sus"
+            width="600" 
+            height="450"
+            style="border:0;"
+            allowfullscreen="true" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <p>The option for embedding a street view map is also possible.
+            Street view is not available for all locations on Google Maps, but the option is there for locations with photos already contributed by Google or others.
+            The same concept applies to street view as it does with regular maps. First access the location via street view and move the picture around until the desired spot is located.
+            Next, there should be a tab right under the search bar in the upper left corner. Within the tab should be the address and/or author of the photo.
+            To the right are three vertical dots, clicking on the dots will lead to a drop down menu containing the embedding a map option. 
+            The size of the map can be adjusted accordingly before copying the code.</p>
+
+            <p>
+                <p>&lt;iframe</p>
+                <p>src="https://www.google.com/maps/embed?pb=!4v1714153889344!6m8!1m7!1sCAoSLEFGMVFpcE15bk1YM0J1d1FSM2pnYkFEbnN6d0Rxby1wUUxJdXpLS0NyemFi!2m2!1d-46.8851617!2d37.868325!3f52.50080888455984!4f-13.275119999399507!5f0.7820865974627469"</p>
+                <p>width="600"</p>
+                <p>height="450"</p>
+                
+                <p>allowfullscreen=""</p>
+                <p>loading="lazy"</p>
+                <p>referrerpolicy="no-referrer-when-downgrade"></p>
+                &lt;/iframe>
+            </p>
+
+            <p>The map should display in street view:</p>
+
+            <iframe src="https://www.google.com/maps/embed/?pb=!4v1714153889344!6m8!1m7!1sCAoSLEFGMVFpcE15bk1YM0J1d1FSM2pnYkFEbnN6d0Rxby1wUUxJdXpLS0NyemFi!2m2!1d-46.8851617!2d37.868325!3f52.50080888455984!4f-13.275119999399507!5f0.7820865974627469" 
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen="true" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            
+      <p>The maps can be adjusted to suit formatting needs of the website.
+          Although, one setback of using the embedded code is the use of style tags. 
+          The code also uses width and height attributes within the HTML code, which should be transferred over to the CSS stylesheet for formatting.
+          Using style elements is not recommended due to the conflicts the tag can create with other elements. 
+          The allowfullscreen element is an option that allows certain map parts to be viewed in full screen. 
+          This element can be toggled to be true or false within the quotation marks. 
+          The map mode can also be changed and updated to different modes other than just street view and regular view. 
+          To add these features onto the map, the parameters must be added into the destination’s url.
+          An API key is needed to access these features on Google’s cloud website, but the keys can open the door to many possibilities for creating different types of maps.
+          W3 Schools state “An API is a set of methods and tools that can be used for building software applications”.  
+          API stands for Application Programming Interface, which essentially allows the API Key required for certain maps to be used for authentication/query purposes.
+          </p>
     </div>
 
 </article>

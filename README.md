@@ -46,6 +46,13 @@ The contact form allows users to fill out a form regarding contact information. 
 
 ## Citations
 
+Barcelona Field Studies Centre. "How to Get your Google Maps API Key (Tutorial)". *Google Maps Compass Application*. https://setcompass.com/How-to-Get-Google-Maps-API-Key-Guide.htm
+
+Google Maps Platform. "The Maps Embed API overview". https://developers.google.com/maps/documentation/embed/get-started
+
+W3 Schools. "Google Maps Tutorial". https://www.w3schools.com/graphics/google_maps_intro.asp. 
+
+
 ## Licensing 
 
 
