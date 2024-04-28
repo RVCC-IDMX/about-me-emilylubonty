@@ -99,7 +99,8 @@ header .navbar-links a:not(:hover){
     flex-direction: column;
     align-items: center;
     border: 3px ridge #CDA5AD;
-    
+    font-size: x-large;
+    font-weight: 600;
 }
 
 
@@ -108,12 +109,13 @@ header .navbar-links a:not(:hover){
     text-align: center;
 }
 #bio {
-    text-align: left;
+    text-align: center;
     padding: 10px;
     background-color: #ddd7d7;
     word-spacing: 2px;
     line-height: 40px;
-    margin: 0;
+    margin: 0px;
+    font-size: x-large;
 }
 
 /* Hobbies */
@@ -128,9 +130,10 @@ header .navbar-links a:not(:hover){
 }
 #hobbies li {
     margin: 5px;
-    font-size: 20px;
+    font-size: x-large;
     padding: 5px;
-    list-style-type: square;
+    list-style-type: "✿";
+
 }
 
 /*Photo Gallery*/
@@ -210,9 +213,10 @@ header .navbar-links a:not(:hover){
 
 #video h2 {
     padding: 5px;
-    background-color: #A63228;
+    background-color: #552d32;
     color: #ddd7d7;
     border-radius: 10px;
+    border: 5px ridge black;
 
 }
 #video {
@@ -222,8 +226,13 @@ header .navbar-links a:not(:hover){
    align-items: center;
    flex-direction: column;
    padding: 10px;
-   background: rgba(219, 171, 171, 0.575);
+   background: rgba(240, 234, 234, 0.575);
 
+}
+
+#video iframe{
+
+    border: 1px ridge black;
 }
 
 
@@ -233,8 +242,8 @@ header .navbar-links a:not(:hover){
 #lit h2 {
     text-align: center;
     background-color: #CDA5AD;
-    padding: 50px;
-    line-height: 50px;
+    padding: 20px;
+    line-height: 70px;
     margin: 0;
 }
 #lit {
@@ -242,6 +251,12 @@ header .navbar-links a:not(:hover){
     background-color: #f6f7f6;
     line-height: 60px;
     border-style: ridge;
+}
+
+#lit .example {
+
+    color: #A63228;
+    background-color: rgba(240, 234, 234, 0.575);
 }
 
 /* Contact Form */ 
@@ -252,6 +267,7 @@ header .navbar-links a:not(:hover){
     padding: 8px;
     background-color: #552d32;
     border-radius: 15px;
+    border: 5px ridge black;
     text-align: center;
     color:#F2E2D4;
 }
@@ -291,10 +307,9 @@ textarea {
 
 button {
     padding: 20px;
-    font-size: large;
+    font-size: 1em;
     font-weight: 700px;
     background-color: #f6f7f6;
-    border: 2px solid ;
 }
 
 input {
@@ -316,6 +331,11 @@ header .navbar .logo {
     align-self: center;
 }
 
+.logo{
+
+    width:100%;
+    height: 100%;
+}
 
 body {
     display: block;
