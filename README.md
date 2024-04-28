@@ -56,6 +56,8 @@ W3 Schools. "Google Maps Tutorial". https://www.w3schools.com/graphics/google_ma
 
 Codepen for Hover Image effect: Copyright (c) 2024 by jayanudin zay (https://codepen.io/jayanudin/pen/EPKdvv)
 
+Powell, Kevin. "Create a responsive navigation nav with no JS!". *Youtube*. https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell. 
+
 ## Licensing 
 
-
+©2024 - Emily Lubonty
