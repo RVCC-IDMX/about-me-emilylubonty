@@ -210,20 +210,22 @@ header .navbar-links a:not(:hover){
 
 #video h2 {
     padding: 5px;
-    background-color: #552d32;
+    background-color: #A63228;
     color: #ddd7d7;
     border-radius: 10px;
 
 }
 #video {
-    
+
    display: flex;
    justify-content: space-around;
    align-items: center;
-   flex-direction: row;
+   flex-direction: column;
    padding: 10px;
-   background: rgba(221, 213, 205, 0.651);
+   background: rgba(219, 171, 171, 0.575);
+
 }
+
 
 
 /* Literature */
@@ -311,10 +313,10 @@ header {
 header .navbar .logo {
     display: inline-block;
     justify-content: space-evenly;
-    width:fit-content;
     align-self: center;
-    
 }
+
+
 body {
     display: block;
 }
