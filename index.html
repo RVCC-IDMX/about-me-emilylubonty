@@ -37,19 +37,27 @@
 <header>
     <!-- the header shows logo and page title-->
     <nav class="navbar">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
         <div class="logo">
             <img src="img/monogram-logo.svg" alt="Monogram logo with the initals 'E' and 'L'">
-            <h1>Web Development I</h1>
+        </div>
+        <div class="class-name">
+            <p>Web Development I</p>
         </div>
         <div class="navbar-links">
             <ul>
-                <li><a href="#bio">Bio</a></li>
+                <li><a href="#bio">Biography</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#lit">Blog</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
+
     </nav>
+    
 </header>
 
 <main>
@@ -94,39 +102,54 @@
 
 </section>
 
+<!--Photo Gallery contains images-->
 <div class="galleryheader">
 <h2>Photo Gallery</h2>
 </div>
-
 <section id="gallery">
-    
-    
-    <figure>
-        <img src="img/kayak-open-water-640w.jpg" alt="Orange kayak on open body of water">
-        <figcaption>Enjoying the view on the water</figcaption>
-    </figure>
-
-    <hr>
-    <figure>
-        <img src="img/cormorant-swimming-640w.jpg" alt="Cormorant bird swimming next to kayak paddle">
-        <figcaption>Cormorant bird searching for food</figcaption>
-    </figure>
-
-    <hr>
-    <figure>
-        <img src="img/kayak-mangrove-640w.jpg" alt="Kayak moving through mangrove forest">
-        <figcaption>Kayaking through mangrove trees</figcaption>
-    </figure>
-    
-    
+    <div class="container">
+        <div class="row">
+            <div id="content-item">
+                <div class="col-md-4">
+                    <div class="item">
+                        <img src="img/cormorant-swimming.jpg" alt="Cormorant swimming along side kayak">
+                        <div class="caption">
+                            <h2>Making Friends</h2>
+                            <p>Cormorant looking for lunch</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img src="img/kayak-mangrove.jpg" alt="Kayaking through mangrove trees">
+                        <div class="caption">
+                            <h2>Mangroves</h2>
+                            <p>Kayaking through mangrove trees</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <img src="img/kayak-open-water.jpg" alt="First person view of kayak sitting on open body of water">
+                        <div class="caption">
+                            <h2>Enjoying the View</h2>
+                            <p>Floating along</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
+<!--Video using iFrame-->
 <section id="video">
     <h2>The Cat™</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/puDvDR_7J6E?si=SFU9DdSOkeYLkS1b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="1500" height="315" src="https://www.youtube.com/embed/puDvDR_7J6E?si=SFU9DdSOkeYLkS1b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <figcaption>cat.</figcaption>
 </section>
 
+<!--Blog section-->
 <article id="lit">
 
     <h2>Embedded static Google map using iFrame</h2>
@@ -211,6 +234,7 @@
 
 </article>
 
+<!--Contact Form-->
 <section id="contact">
 
     <h2>Contact Me:</h2>

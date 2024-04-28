@@ -54,6 +54,7 @@ Google Maps Platform. "The Maps Embed API overview". https://developers.google.c
 
 W3 Schools. "Google Maps Tutorial". https://www.w3schools.com/graphics/google_maps_intro.asp. 
 
+Codepen for Hover Image effect: Copyright (c) 2024 by jayanudin zay (https://codepen.io/jayanudin/pen/EPKdvv)
 
 ## Licensing 
 
